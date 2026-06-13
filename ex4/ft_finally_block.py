@@ -34,7 +34,7 @@ def main() -> None:
     print("\nTesting valid plants...")
     test_watering_system(["Tomato", "Lettuce", "Carrots"])
     print("\nTesting invalid plants...")
-    test_watering_system(["Tomato", "lettuce"])
+    test_watering_system(["Tomato", "lettuce", "Carrots"])
     print("\nCleanup always happens, even with errors!")
 
 
